@@ -4,7 +4,7 @@ import './signIn.scss'
 function SignIn() {
   return (
     <div className="signInContainer">
-      <p>Sing In to Abstract</p>
+      <p>Sing In to Abstractor</p>
       <div className="mainContainer">
         <div className="left-container">
           <div className="googlesignin">
