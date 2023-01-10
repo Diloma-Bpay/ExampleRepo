@@ -1,0 +1,133 @@
+body {
+  margin: 0px;
+  padding: 0px;
+
+  .navbarContainer {
+    background-color: rgb(10, 10, 10);
+    color: white;
+    height: 88px;
+    width: 100%;
+    display: flex;
+    position: relative;
+
+
+
+    .logo-wrapper {
+      height: 70px;
+      width: 30%;
+      // background-color: rgb(31, 88, 57);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px;
+      gap: 10px;
+
+      .abstract_logo {
+        display: inline-block;
+
+        margin: 4px 0 0 0.8rem;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 23px;
+        padding: 2px 0 4px 0.8rem;
+
+      }
+
+      .abstract_logo:hover {
+        display: inline-block;
+        color: darkgray;
+        cursor: pointer;
+        margin: 4px 0 0 0.8rem;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 23px;
+        padding: 2px 0 4px 0.8rem;
+
+      }
+
+
+      .helpCenter {
+        display: inline-block;
+        margin: 4px 0 0 0.8rem;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 23px;
+        padding: 2px 0 4px 0.8rem;
+        border-left: 1px solid rgb(255, 255, 255);
+      }
+
+      .helpCenter:hover {
+        text-decoration: underline;
+        cursor: pointer;
+        display: inline-block;
+        margin: 4px 0 0 0.8rem;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 23px;
+        padding: 2px 0 4px 0.8rem;
+        border-left: 1px solid rgb(255, 255, 255);
+      }
+    }
+
+    .navbarControl {
+      height: 70px;
+      width: 100%;
+      // background-color: rgb(13, 124, 175);
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-right: 55px;
+      padding-right: 50px;
+      margin-top: 10px;
+
+      gap: 30px;
+
+      .submitReq {
+        border: 1px solid #fff;
+        padding: 6px 22px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 8px;
+        display: inline-block;
+        font-weight: 400;
+        line-height: 1.5;
+        outline: none;
+        font-size: 24px;
+        color: #fff;
+        margin-left: 1rem;
+      }
+
+
+      .signInDiv {
+        margin-left: 1rem;
+        width: 100px;
+        font-size: 24px;
+        background-color: #1f73b7;
+        padding: 6px 22px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 8px;
+        display: inline-block;
+        font-weight: 400;
+        line-height: 1.5;
+        outline: none;
+      }
+
+      .signInDiv:hover {
+        margin-left: 1rem;
+        width: 100px;
+        font-size: 24px;
+        background-color: #fbfdff;
+        color: black;
+        padding: 6px 22px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 8px;
+        display: inline-block;
+        font-weight: 400;
+        line-height: 1.5;
+        outline: none;
+      }
+    }
+  }
+}

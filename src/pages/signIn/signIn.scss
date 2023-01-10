@@ -1,0 +1,165 @@
+.signInContainer {
+  height: 550px;
+  width: 850px;
+  // background-color: black;
+  margin: 80px 15px 0px 410px;
+  color: rgb(13, 13, 14);
+  box-shadow: -3px -2px 6px 4px rgba(127, 117, 117, 0.29);
+  -webkit-box-shadow: -3px -2px 6px 4px rgba(127, 117, 117, 0.29);
+  -moz-box-shadow: -3px -2px 6px 4px rgba(127, 117, 117, 0.29);
+  // display: flex;
+
+
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+  }
+
+  .mainContainer {
+    display: flex;
+
+    column-gap: 30px;
+    // height: 90px;
+    // width: 95%;
+    // background-color: rgb(147, 6, 20);
+    margin: 20px 40px 20px 15px;
+    padding: 0px 10px 0px 10px;
+
+
+    .left-container {
+      // background-color: aqua;
+      flex: 3;
+
+      .googlesignin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(253, 253, 253);
+        margin: 10px;
+        height: 40px;
+        box-shadow: -3px -2px 6px 4px rgba(127, 117, 117, 0.29);
+
+        .google {
+          margin: 0px;
+          padding: 0px;
+        }
+      }
+    }
+
+    .verticalLine {
+      border-left: 2px solid rgba(106, 107, 106, 0.411);
+      height: 260px;
+    }
+
+    .right-container {
+      // background-color: rgb(54, 51, 51);
+      flex: 4;
+
+      form {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        padding: 10px;
+
+        label {
+          padding-top: 10px;
+          color: black;
+        }
+
+        input {
+          background-color: #ffffff;
+          color: rgb(14, 13, 13);
+          cursor: pointer;
+          border: 1px solid black;
+          padding: 0.625rem 0.9375rem;
+          margin-top: 0.3125rem;
+          width: 80%;
+          border-radius: 5px;
+          outline: none;
+        }
+
+        button {
+          background-color: #4C5FD5;
+          color: rgb(255, 255, 255);
+          cursor: pointer;
+          border: none;
+          padding: 0.625rem 0.9375rem;
+          // margin-top: 0.3125rem;
+          width: 90%;
+          border-radius: 5px;
+          outline: none;
+          font-size: 15px;
+          font-weight: 600;
+          margin-top: 16px;
+        }
+      }
+
+      .loginOptions {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+
+        p {
+          padding-top: 25px;
+          margin: 0px;
+          color: #2a3cafd8;
+        }
+
+        // .agent {
+        //   padding: 20px;
+        // }
+
+        .forgot-password {
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
+
+  .moreOPtion {
+    // background-color: grey;
+    height: 150px;
+    width: 800px;
+    display: flex;
+
+    .signUplink {
+      // background-color: #fff;
+      margin-left: 25px;
+      margin-top: 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 0px;
+      color: #040f57d8;
+
+      .newUser {
+        padding: 0px;
+        margin-left: 10px;
+      }
+
+      .recoverpass {
+        padding: 0px;
+        margin-left: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+      .communication {
+        padding: 0px;
+        margin-left: 10px;
+        margin-top: 5px;
+        color: #2a3cafb2;
+
+      }
+
+    }
+
+  }
+}
