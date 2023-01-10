@@ -8,7 +8,7 @@ function SignIn() {
       <div className="mainContainer">
         <div className="left-container">
           <div className="googlesignin">
-            <p className="google">Sign in with Google</p>
+            <p className="google">Sign in with Google for better experience</p>
           </div>
         </div>
         <div className="verticalLine"></div>
